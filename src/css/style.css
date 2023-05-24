@@ -1,5 +1,53 @@
 @import url("../css/reset.css");
 
-.menu-mobile {
+:root {
+    --branco: #ffffff;
+    --preto: 
+}
+
+
+.menu-items:nth-child(1) {
+    padding-top: 3em;
+}
+
+.menu-items:last-child {
+    padding-bottom: 3em;
+}
+
+.close-menu {
+    position: absolute;
+    right: 2em;
+    top: 2em;
     display: none;
 }
+
+.open-menu {
+    position: absolute;
+    right: 2em;
+    top: 2em;
+}
+
+body.menu-extendido {
+    overflow: hidden;
+}
+
+body.menu-extendido > :not(nav) {
+    visibility: hidden;
+}
+
+.menu-items {
+    display: none;
+}
+
+body.menu-extendido .menu-items {
+    height: 215vw;
+    background-color: red;
+    display: flex;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    padding-top: 10em;
+    padding-left: 2em;
+}
+

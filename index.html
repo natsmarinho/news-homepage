@@ -9,20 +9,23 @@
 </head>
 <body>
     <nav class="menu">
-        <ul class="menu-mobile">
-            <li><a href="#" class="open-menu-mobile"><img src="./src/images/icon-menu.svg" alt="Botão para abrir o menu" class="open-menu"></a></li>
+        <div class="wrapper">
+            <a href="#" class="open-menu-mobile"><img src="./src/images/icon-menu.svg" alt="Botão para abrir o menu" class="open-menu" aria-label="Abrir menu" aria-expanded="false"></a>
+
+            <ul class="menu-items">
+                <a href="#" ><img src="./src/images/icon-menu-close.svg" alt="Botão para fechar o menu" class="close-menu" aria-label="Fechar menu"></a>
+                <li><a href="#" class="link-menu">Home</a></li>
+                <li><a href="#" class="link-menu">New</a></li>
+                <li><a href="#" class="link-menu">Popular</a></li>
+                <li><a href="#" class="link-menu">Trending</a></li>
+                <li><a href="#" class="link-menu">Categories</a></li>
+            </ul>
             
-            <div class="menu-items">
-            <li><a href="#"><img src="./src/images/icon-menu-close.svg" alt="Botão para fechar o menu" class="close-menu"></a></li>
-            <li><a href="#" class="link-menu">Home</a></li>
-            <li><a href="#" class="link-menu">New</a></li>
-            <li><a href="#" class="link-menu">Popular</a></li>
-            <li><a href="#" class="link-menu">Trending</a></li>
-            <li><a href="#" class="link-menu">Categories</a></li>
-            </div>
-        </ul>
+
+        </div>
+    
     </nav>
 
-    <script src=".script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
