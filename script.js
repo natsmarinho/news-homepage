@@ -1,19 +1,12 @@
-const openMenu = document.querySelector(".open-menu").addEventListener('click', abreMenu);
-const closeMenu = document.querySelector(".close-menu").addEventListener('click', fechaMenu);
-const btnAbrir = document.querySelector(".open-menu");
-const btnFecha = document.querySelector(".close-menu");
-const listaLink = document.querySelector(".menu-items");
+const btnAbreMenu = document.querySelector("#abreMenu").addEventListener("click", openMenu);
+const btnFechaMenu = document.querySelector("#close-menu").addEventListener("click", closeMenu);
 
-function abreMenu() {
-    document.body.classList.add("menu-extendido");
-    btnAbrir.style.display = "none";
-    btnFecha.style.display = "block";
-    listaLink.style.display = "flex"
+function openMenu() {
+    menu.style.display = "flex";
+    abreMenu.style.display = "none";
 }
 
-function fechaMenu() {
-    document.body.classList.remove("menu-extendido");
-    btnAbrir.style.display = "block";
-    btnFecha.style.display = "none";
-    listaLink.style.display = "none";
+function closeMenu() {
+    menu.style.display = "none";
+    abreMenu.style.display = "block";
 }
