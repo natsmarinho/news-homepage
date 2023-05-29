@@ -17,6 +17,10 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+.fundo-escuro {
+    filter: brightness(50%);
+}
+
 
 .botoes-menu{
     display: flex;
@@ -27,21 +31,23 @@ body {
     cursor: pointer; 
     padding-top: 2em;
     padding-right: 2em;
+    position: absolute;
+    
 }
 
 
 #menu {
     display: none;
     background: var(--branco);
-    width: 40%;
+    width: 60%;
+    height: 100vh;
     margin-left: auto;
-    z-index: 100;
+    position: absolute;
+    right: 0; 
 }
 
-.wrapper {
-    display: flex;
-    flex-direction: column;
-}
+
+
 
 #close-menu {
     position: absolute;
@@ -49,22 +55,20 @@ body {
     top: 2em;
 }
 
+
 .menu-items {
     display: flex;
     flex-direction: column;
     gap: 4em;
     padding-top: 10em;
-    padding-left: 2em;
+    padding-left: 2em;    
 }
+
 
 .menu-items:last-child{
     padding-bottom: 2em;
 }
 
-body {
-    background: var(--bg-grey-light);
+.test {
+    display: inline-block;
 }
-
-
-
-

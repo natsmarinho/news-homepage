@@ -8,5 +8,5 @@ function openMenu() {
 
 function closeMenu() {
     menu.style.display = "none";
-    abreMenu.style.display = "block";
+    abreMenu.style.display = "flex";
 }
