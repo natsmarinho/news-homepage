@@ -80,3 +80,40 @@ header {
 .menu-items:last-child{
     padding-bottom: 2em;
 }
+
+
+.main-new {
+    padding-top: 6em;
+    display: flex;
+    flex-direction: column;
+}
+
+.formas {
+    width: 92%;
+    margin: auto;
+}
+
+.main-new h1{
+    font-weight: 800;
+    color: var(--dark-blue);
+    font-size: 2.5em;
+    padding-inline: .4em;
+    padding-top: 1em;
+}
+
+.main-new p {
+    padding: 1.5em 1em;
+    font-size: 1em;
+    line-height: 28px;
+}
+
+.main-new a {
+    color: var(--off-white);
+    background: var(--soft-red);
+    text-transform: uppercase;
+    padding: 1em 1em;
+    text-align: center;
+    margin-left: 1em;
+    margin-right: 60%;
+}
+
