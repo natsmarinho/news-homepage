@@ -17,14 +17,16 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
-.fundo-escuro {
-    filter: brightness(50%);
+
+header {
+   display: flex; 
+   justify-content: end;
 }
 
-
-.botoes-menu{
-    display: flex;
-    justify-content: end;
+.logo {
+    position: absolute;
+    left: 1.5em;
+    top: 1em;
 }
 
 #abreMenu{
@@ -44,10 +46,20 @@ body {
     margin-left: auto;
     position: absolute;
     right: 0; 
+    z-index: 9999;
+    background: var(--branco);
 }
 
-
-
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
 
 #close-menu {
     position: absolute;
@@ -61,14 +73,10 @@ body {
     flex-direction: column;
     gap: 4em;
     padding-top: 10em;
-    padding-left: 2em;    
+    padding-left: 2em;   
 }
 
 
 .menu-items:last-child{
     padding-bottom: 2em;
-}
-
-.test {
-    display: inline-block;
 }
