@@ -153,5 +153,38 @@ header {
     color: var(--dark-grayish-blue);
 }
 
+.previous-news__item {
+    display: flex;
+    padding: 1em;
+    gap: 1em;
+}
+
+.previous-news__item img {
+    width: 35%;
+    height: fit-content;
+}
+
+.previous-news__info {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.previous-news__info h1{
+    color: var(--grayish-blue);
+    font-weight: 800;
+    font-size: 2.5em;
+}
+
+.previous-news__info h2 {
+    color: var(--preto);
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+.previous-news__info p {
+    color: var(--grayish-blue);
+}
+
 
 
