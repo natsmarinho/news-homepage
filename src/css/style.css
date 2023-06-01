@@ -114,6 +114,44 @@ header {
     padding: 1em 1em;
     text-align: center;
     margin-left: 1em;
-    margin-right: 60%;
+    margin-right: auto;
 }
+
+.news {
+    margin: 3em 1em;
+    background: var(--dark-blue);
+    padding: 2em 1em;
+}
+
+.news h1 {
+    color: var(--soft-orange);
+    font-weight: 800;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    
+}
+
+.border::after {
+    content: "";
+    border: 1px var(--dark-grayish-blue) solid;
+    margin-top: 1em;
+    margin-bottom: 2.5em;
+}
+
+.list-item a {
+    color: var(--branco);
+    font-size: 1.3em;
+}
+
+.list-item h2 {
+    color: var(--dark-grayish-blue);
+}
+
+
 
