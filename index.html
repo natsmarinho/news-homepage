@@ -16,6 +16,7 @@
 
             <nav id="menu">  
                 <img src="./src/images/icon-menu-close.svg" alt="Fecha menu" id="close-menu">
+
                 <ul class="menu-items">
                     <li><a href="#" class="link-menu">Home</a></li>
                     <li><a href="#" class="link-menu">New</a></li>
@@ -23,18 +24,34 @@
                     <li><a href="#" class="link-menu">Trending</a></li>
                     <li><a href="#" class="link-menu">Categories</a></li>
                 </ul>   
+
         </nav>
+                <ul class="menu-desktop">
+                    <li><a href="#" class="link-menu__desktop">Home</a></li>
+                    <li><a href="#" class="link-menu">New</a></li>
+                    <li><a href="#" class="link-menu__desktop">Popular</a></li>
+                    <li><a href="#" class="link-menu__desktop">Trending</a></li>
+                    <li><a href="#" class="link-menu__desktop">Categories</a></li>
+                </ul>
         </header>
         
-        <main class="main-new">
+        <section class="news">
+            <main class="main-new">
             <img class="formas" src="./src/images/image-web-3-mobile.jpg" alt="Imagem com diversas formas coloridas">
 
+            <img src="./src/images/image-web-3-desktop.jpg" class="formas-desktop" alt="">
+
+            <div class="news-description">
             <h1>The Bright Future of Web 3.0?</h1>
-            <p>We dive into the next evolution of the web that claims to put the power of the plataforms back into the hands of the people. But is it really fulfilling its promise?</p>
+            <div class="news-description__info">
+                <p>We dive into the next evolution of the web that claims to put the power of the plataforms back into the hands of the people. But is it really fulfilling its promise?</p>
             <a href="#">Read more</a>
+            </div>
+            </div>
+            
         </main>
 
-        <section class="news">
+        <div class="list-news">
             <h1>New</h1>
             <ul>
                 <li class="list-item border">
@@ -52,13 +69,15 @@
                     <h2>Private funding by VC firms is down 50% YOY. We take a look at what that means.</h2>
                 </li>
             </ul>
+        </div>
+ 
             <a href="" class="link-new">
             </a><a href="" class="link-new"></a>
         </section>
         
         <section class="previous-news">
             <div class="previous-news__item">
-                <img src="./src/images/image-retro-pcs.jpg" alt="Imagem de computador retrô">
+                <img src="./src/images/image-retro-pcs.jpg" alt="Imagem de computador retrô" class="pc">
 
                 <div class="previous-news__info">
                     <h1>01</h1>
@@ -68,7 +87,7 @@
             </div>
 
             <div class="previous-news__item">
-                <img src="./src/images/image-top-laptops.jpg" alt="Imagem de um teclado de notebook gamer com leds vermelhos">
+                <img src="./src/images/image-top-laptops.jpg" alt="Imagem de um teclado de notebook gamer com leds vermelhos" class="teclado">
 
                 <div class="previous-news__info">
                     <h1>02</h1>

@@ -37,6 +37,9 @@ header {
     
 }
 
+.menu-desktop {
+    display: none;
+}
 
 #menu {
     display: none;
@@ -93,6 +96,10 @@ header {
     margin: auto;
 }
 
+.formas-desktop {
+    display: none;
+}
+
 .main-new h1{
     font-weight: 800;
     color: var(--dark-blue);
@@ -117,10 +124,12 @@ header {
     margin-right: auto;
 }
 
-.news {
+
+.list-news {
     margin: 3em 1em;
     background: var(--dark-blue);
     padding: 2em 1em;
+    margin-top: 6em;
 }
 
 .news h1 {
@@ -177,14 +186,101 @@ header {
 }
 
 .previous-news__info h2 {
-    color: var(--preto);
+    color: var(--dark-blue);
     font-weight: 800;
     font-size: 1.5em;
 }
 
 .previous-news__info p {
-    color: var(--grayish-blue);
+    color: var(--dark-grayish-blue);
 }
 
+@media screen and (min-width: 1220px){
 
+    .logo {
+        padding-left: 4em;
+    }
+
+    #abreMenu {
+        display: none;
+    }
+
+    .menu-items {
+        display: flex;
+    }
+
+    .menu-desktop {
+        display: flex;
+        gap: 2em;
+        padding-right: 4em;
+        padding-top: 2em;
+    }
+
+    .link-menu__desktop {
+        color: var(--dark-blue);
+    }
+
+    .formas {
+        display: none;
+    }
+
+    .formas-desktop {
+        display: block;
+        width: 95%;
+        padding-left: 1em;
+    }
+
+    .news {
+        display: flex;
+        padding-left: 4em;
+    }
+
+    .news-description {
+        display: flex;
+    }
+
+    .news-description h1 {
+        color: var(--dark-blue);
+        font-size: 3em;
+        padding-right: 3em;
+    }
+    
+    .news-description__info p {
+        padding-top: 2em;
+        padding-right: 2em;
+        padding-bottom: 3em;
+        color: var(--dark-grayish-blue);
+    }
+
+    .list-news {
+        margin-right: 4em;
+        margin-left: 0;
+    }
+
+    .list-news h1 {
+        font-size: 3em;
+    }
+
+    .list-item a {
+        font-size: 1.3em;
+    }
+
+    .list-item h2{
+        font-size: 1.2em;
+    }
+
+    .previous-news {
+        display: flex;
+        padding-inline: 4em;
+    }
+
+    .previous-news__item {
+        display: flex;
+        align-items: center;
+    }
+
+    .pc {
+        width: 5%;
+    }
+}
 
