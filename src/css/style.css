@@ -156,6 +156,7 @@ header {
 .list-item a {
     color: var(--branco);
     font-size: 1.3em;
+    font-weight: 700;
 }
 
 .list-item h2 {
@@ -185,7 +186,7 @@ header {
     font-size: 2.5em;
 }
 
-.previous-news__info h2 {
+.previous-news__info a {
     color: var(--dark-blue);
     font-weight: 800;
     font-size: 1.5em;
@@ -252,6 +253,10 @@ header {
         color: var(--dark-grayish-blue);
     }
 
+    .news-description__info a:hover {
+        background: var(--dark-blue);
+    }
+
     .list-news {
         margin-right: 4em;
         margin-left: 0;
@@ -263,6 +268,10 @@ header {
 
     .list-item a {
         font-size: 1.3em;
+    }
+
+    .list-item a:hover {
+        color: var(--soft-orange);
     }
 
     .list-item h2{
@@ -279,8 +288,9 @@ header {
         align-items: center;
     }
 
-    .pc {
-        width: 5%;
+    .previous-news__info a:hover {
+        color: var(--soft-red);
     }
+
 }
 
