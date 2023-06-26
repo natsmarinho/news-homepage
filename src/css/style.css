@@ -217,6 +217,10 @@ header {
         padding-top: 2em;
     }
 
+    .menu-desktop a:hover {
+        color: var(--soft-red);
+    }
+
     .link-menu__desktop {
         color: var(--dark-blue);
     }
@@ -291,6 +295,7 @@ header {
     .previous-news__info a:hover {
         color: var(--soft-red);
     }
+
 
 }
 
