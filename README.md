@@ -1,4 +1,4 @@
-<h1>Página de notícia</h1> 
+<h1>News homepage</h1> 
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Github&message=deploy&color=blue&style=for-the-badge&logo=github"/>
@@ -33,7 +33,7 @@
 
 ## Linguagens, dependencias e libs utilizadas :books:
 
-<strong>HTML5</strong>: Utilizado para estruturar o conteúdo da página.
+<strong>HTML5</strong>: Utilizado para estruturar o conteúdo da página.<br>
 <strong>CSS3</strong>: Utilizado para estilizar os elementos e criar um layout atraente e responsivo.
 
 ## Como usar
